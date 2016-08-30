@@ -1,5 +1,5 @@
 aiodns (1.1.1-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #835339)
 
  -- Tanguy Ortolo <tanguy+debian@ortolo.eu>  Tue, 30 Aug 2016 15:17:21 +0200
