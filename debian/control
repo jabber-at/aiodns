@@ -2,7 +2,11 @@ Source: aiodns
 Section: python
 Priority: optional
 Maintainer: Tanguy Ortolo <tanguy+debian@ortolo.eu>
-Build-Depends: debhelper (>=9)
+Build-Depends:
+    debhelper (>=9),
+    dh-python,
+    python3-all,
+    python-all
 Standards-Version: 3.9.8
 Homepage: https://github.com/saghul/aiodns
 Vcs-Git: https://git.ortolo.eu/git/pkg-aiodns.git
@@ -14,3 +18,14 @@ Depends: ${misc:Depends}, ${python:Depends}
 Description: Asynchronous DNS resolver library for Python
  aiodns provides a simple way for doing asynchronous DNS resolutions with a
  synchronous looking interface, using pycares.
+ .
+ This package installs the library for Python 2.
+
+Package: python3-aiodns
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Asynchronous DNS resolver library for Python 3
+ aiodns provides a simple way for doing asynchronous DNS resolutions with a
+ synchronous looking interface, using pycares.
+ .
+ This package installs the library for Python 3.
