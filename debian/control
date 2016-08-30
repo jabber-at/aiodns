@@ -20,7 +20,6 @@ Package: python-aiodns
 Architecture: all
 Depends:
     ${misc:Depends}, ${python:Depends},
-    python-pycares,
     python-trollius
 Description: Asynchronous DNS resolver library for Python
  aiodns provides a simple way for doing asynchronous DNS resolutions with a
@@ -30,9 +29,7 @@ Description: Asynchronous DNS resolver library for Python
 
 Package: python3-aiodns
 Architecture: all
-Depends:
-    ${misc:Depends}, ${python3:Depends},
-    python3-pycares
+Depends: ${misc:Depends}, ${python3:Depends}
 Description: Asynchronous DNS resolver library for Python 3
  aiodns provides a simple way for doing asynchronous DNS resolutions with a
  synchronous looking interface, using pycares.
