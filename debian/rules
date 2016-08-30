@@ -3,6 +3,7 @@
 # output every command that modifies files on the build system.
 #export DH_VERBOSE = 1
 
+export PYBUILD_NAME = aiodns
 
 %:
 	dh $@  --with python2,python3 --buildsystem=pybuild
