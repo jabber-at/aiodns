@@ -6,8 +6,10 @@ Build-Depends:
     debhelper (>=9),
     dh-python,
     python3-all,
+    python3-pycares,
     python3-setuptools,
     python-all,
+    python-pycares,
     python-setuptools,
 Standards-Version: 3.9.8
 Homepage: https://github.com/saghul/aiodns
