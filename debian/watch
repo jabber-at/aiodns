@@ -3,6 +3,6 @@
 # Compulsory line, this is a version 4 file
 version=4
 
-https://github.com/saghul/aiodns/tags \
-    .*/aiodns-([\d\.]+).tar.(?:xz|bz2|gz) \
-    debian uupdate
+https://github.com/saghul/@PACKAGE@/tags \
+    .*/@PACKAGE@-@ANY_VERSION@@ARCHIVE_EXT@ \
+    debian
