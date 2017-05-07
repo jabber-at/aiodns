@@ -1,7 +1,8 @@
 Source: aiodns
 Section: python
 Priority: optional
-Maintainer: Tanguy Ortolo <tanguy+debian@ortolo.eu>
+Maintainer: Mathias Ertl <mati@jabber.at>
+XSBC-Orig-Maintainer: Tanguy Ortolo <tanguy+debian@ortolo.eu>
 Build-Depends:
     debhelper (>=9),
     dh-python,
@@ -13,8 +14,8 @@ Build-Depends:
     python-setuptools,
 Standards-Version: 3.9.8
 Homepage: https://github.com/saghul/aiodns
-Vcs-Git: https://git.ortolo.eu/git/pkg-aiodns.git
-Vcs-Browser: https://git.ortolo.eu/pkg-aiodns.git
+Vcs-Git: https://github.com/jabber-at/aiodns.git
+Vcs-Browser: https://github.com/jabber-at/aiodns
 X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.3
 

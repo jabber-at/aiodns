@@ -1,3 +1,10 @@
+aiodns (1.1.1-1.1) unstable; urgency=medium
+
+  * Adopt the stock Debian package for jabber.at repositories.
+  * Add setup.py.patch to build successfully on Debian Jessie.
+
+ -- Mathias Ertl <mati@jabber.at>  Sun, 07 May 2017 11:04:19 +0200
+
 aiodns (1.1.1-1) unstable; urgency=medium
 
   * Initial release (Closes: #835339)
